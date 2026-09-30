@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <h1>Fale Conosco</h1>
+    <a href="html/passoAPasso.html">Passo a passo</a>
+    <form action="https://formsubmit.co/vslssbarbosa@gmail.com" method="POST">
+
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome">
+
+        <br><br>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+
+        <label for="assunto">Assunto</label>
+        <input type="text" id="assunto" name="assunto">
+
+        <br><br>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" maxlength="90"></textarea>
+
+        <br><br>
+
+        <button type="submit">Enviar Mensagem</button>
+
+
+        <input type="hidden" name="_subject" value="Nova mensagem do site">
+
+        <input type="hidden" name="_template" value="table">
+
+        <input type="hidden" name="_next" value= "http://127.0.0.1:5500/html/sucesso">
+    </form>
+    <!-- <form action="https://formsubmit.co/vslssbarbosa@gmail.com" method="POST"></form> -->
+</body>
+
+</html>
